@@ -1,0 +1,57 @@
+      <!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar HTML</title>
+</head>
+
+<body>
+
+    <h1>Contoh HTML Gambar dan Link</h1>
+
+    <p>Ini adalah contoh gambar yang pasti muncul.</p>
+
+    <!-- Gambar -->
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=500"
+    width="300">
+
+    <br><br>
+
+    <!-- Link -->
+    <a href="https://www.google.com">
+        Buka Google
+    </a>
+
+    <br><br>
+
+    <!-- Link Email -->
+    <a href="mailto:contoh@gmail.com">
+        Kirim Email
+    </a>
+
+    <br><br>
+
+    <!-- Tabel -->
+    <table border="1" cellpadding="10">
+
+        <tr>
+            <th>No</th>
+            <th>Nama</th>
+            <th>Kelas</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Dwi</td>
+            <td>TI A</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Citra</td>
+            <td>TI B</td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
