@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan CSS</title>
+ 
+    <link rel="stylesheet" href="style.css">
+ 
+    <style>
+        .teks-sorot {
+            background-color: rgb(218, 59, 11);
+            padding: 0 5px;
+        }
+    </style>
+ 
+</head>
+<body>
+ 
+    <div id="kontainer-utama">
+            <h1>Praktikum Pemrograman Web</h1>
+ 
+            <div class="panel-konten">
+                <h2>Mengenal Element Selector</h2>
+                <p>
+                    Ini adalah contoh penggunaan <span class="teks-sorot">Element Selector</span>. 
+                    Semua tag "p" di halaman ini akan punya style yang sama tanpa perlu dipanggil satu-satu.
+                </p>
+            </div>
+ 
+            <div class="panel-konten">
+                <h2>Metode Lainnya</h2>
+                <p>Kita juga belajar cara nempel style langsung ke elemennya.</p>
+ 
+                <p style="color: blue; font-style: italic; border-top: 1px dashed blue;">
+                    Tulisan ini berwarna biru dan miring karena pake CSS Inline!
+                </p>
+            </div>
+    </div>
+ 
+</body>
+ 
+</html>
